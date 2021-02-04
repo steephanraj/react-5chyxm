@@ -1,11 +1,13 @@
+import { Component } from "react";
 import React from "react";
 import "./style.css";
+import ListEmployeeComponent from "./ListEmployeeComponent";
 
-export default function App() {
+function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <ListEmployeeComponent />
     </div>
   );
 }
+export default App;
